@@ -11,8 +11,9 @@ export const SocialNetwork = () => {
             </div>
             <div className={s.links}>
                 <p>{`Демо:   `}
-                    <a rel="noreferrer" target="_blank"
-                       href="#">###</a>
+                    {/*<a rel="noreferrer" target="_blank"*/}
+                    {/*   href="#">in process</a>*/}
+                    in process
                 </p>
                 <p>{`Исходники:   `}
                     <a rel="noreferrer" target="_blank"

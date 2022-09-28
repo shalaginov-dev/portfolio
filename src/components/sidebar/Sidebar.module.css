@@ -4,19 +4,19 @@
     justify-content: start;
     align-items: center;
     height: 90vh;
-    width: 270px;
+    width: 210px;
     background-color: #222222;
     border: black solid 1px;
     border-radius: 5px;
     margin-right: 10px;
-    padding: 20px 0;
+    padding: 20px 0 0 0;
     overflow: hidden;
+    font-size: 13px;
 }
 
 .photo {
-    height: 220px;
-    width: 220px;
-    margin-bottom: 20px;
+    width: 165px;
+    margin-bottom: 15px;
 }
 
 .photo img {
@@ -33,10 +33,10 @@
     color: white;
 }
 
-.navItem h3{
+.navItem h3 {
     background-color: #151515;
-    margin: 20px 0;
-    height: 24px;
+    margin: 10px 0;
+    height: 20px;
     width: 100%;
 }
 
@@ -48,7 +48,7 @@
     margin-bottom: 15px;
 }
 
-.navItem div{
+.navItem div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,14 +59,13 @@
     justify-content: start;
     align-items: center;
     padding-left: 10px;
-    width: 240px;
-    height: 50px;
+    width: 185px;
+    height: 40px;
     background-color: transparent;
     border: 0;
     border-radius: 7px;
     cursor: pointer;
     color: #ffffff;
-    font-size: 15px;
 }
 
 .navItem button:hover {
@@ -79,14 +78,14 @@
     margin-right: 10px;
 }
 
-.skills{
+.skills {
+    position: absolute;
     text-align: left;
     align-items: start;
-    position: absolute;
-    right: 65px;
+    right: 17px;
     width: 150px;
 }
 
-.skills li{
+.skills li {
     margin-bottom: 5px;
 }
