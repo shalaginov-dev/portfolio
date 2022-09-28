@@ -1,0 +1,27 @@
+.footerBlock {
+    z-index: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #222222;
+    width: 1080px;
+    height: 60px;
+    border: black solid 1px;
+    border-radius: 5px;
+}
+
+.email{
+    color: #ffffff;
+}
+
+.links a{
+    padding: 0 5px;
+}
+
+.links a img{
+    width: 33px;
+}
+
+.phone {
+    color: #ffffff;
+}

@@ -1,0 +1,33 @@
+.todolistBlock {
+    display: flex;
+    flex-direction: column;
+    padding: 70px 100px 20px 100px;
+    background-color: #222222;
+    height: 90vh;
+    width: 800px;
+    border: black solid 1px;
+    border-radius: 5px;
+    color: white;
+    overflow: hidden;
+}
+
+.stack {
+    margin-bottom: 100px;
+}
+
+.links {
+    margin-bottom: 100px;
+}
+
+.links a {
+    color: #606ce0;
+}
+
+.links p {
+    margin-bottom: 2px;
+}
+
+.image img {
+    width: 600px;
+    border-radius: 5px;
+}
