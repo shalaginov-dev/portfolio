@@ -5,7 +5,7 @@ export const AboutMe = () => {
         <div className={s.aboutMeBlock}>
             <div className={s.title}>
                 <h2>Шалагинов Иван</h2>
-                <p>FRONT-END РАЗРАБОТЧИК</p>
+                <p>FRONTEND(React) РАЗРАБОТЧИК</p>
                 <p>Сочи/Россия Возраст: 29</p>
             </div>
             <div className={s.workExperience}>
@@ -20,8 +20,8 @@ export const AboutMe = () => {
                     <p>- Настраивал роутинг (react-router)</p>
                     <p>- Реализовал стейт менеджмент(Redux)</p>
                     <p>- Подключал UI библиотеку(Material UI)</p>
-                    <p>- Написал и настроил REST API</p>
-                    <p>- Написал unit тесты</p>
+                    <p>- Писал REST API</p>
+                    <p>- Писал unit тесты</p>
                     <p>- Делал оптимизацию useCallback/memo</p>
                 </ul>
             </div>
@@ -48,7 +48,7 @@ export const AboutMe = () => {
                     Есть опыт коммерческой разработки на фрилансе, занимался фронтендом строительного интернет магазина.
                 </p>
                 <p>
-                    Совершенствуюсь в направлении фронтенда, глубоко изучаю React. В ближайших планах технологии: SSR,
+                    Совершенствуюсь в направлении фронтенда, глубоко изучаю React. В ближайших планах библиотеки и технологии: MobX, SSR,
                     GraphQL
                 </p>
                 <p>

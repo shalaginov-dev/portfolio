@@ -6,9 +6,7 @@ import projectIcon from '../../assets/images/proj_icon.png'
 export const Sidebar = (props) => {
     return (
         <aside className={s.asideBlock}>
-            <div className={s.photo}>
                 <img src={ava} alt="avatar"/>
-            </div>
             <div className={s.navMenu}>
                 <div className={s.navItem}>
                     <button onClick={props.AMButton}>

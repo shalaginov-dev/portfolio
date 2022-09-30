@@ -4,6 +4,7 @@
     align-items: center;
     flex-direction: column;
     min-height: 100vh;
+    /*min-width: 100vh;*/
     background-color: #141414;
 }
 
@@ -11,6 +12,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 

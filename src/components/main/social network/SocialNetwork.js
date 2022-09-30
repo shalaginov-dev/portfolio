@@ -10,12 +10,14 @@ export const SocialNetwork = () => {
                 <p>React, Redux, flex, react-router, redux-form, reselect, axios, thunk, jest</p>
             </div>
             <div className={s.links}>
-                <p>{`Демо:   `}
+                {`Демо:   `}
+                <p>
                     {/*<a rel="noreferrer" target="_blank"*/}
                     {/*   href="#">in process</a>*/}
                     in process
                 </p>
-                <p>{`Исходники:   `}
+                {`Исходники:   `}
+                <p>
                     <a rel="noreferrer" target="_blank"
                        href="https://github.com/shalaginov-dev/social-network">https://github.com/shalaginov-dev/social-network</a>
                 </p>

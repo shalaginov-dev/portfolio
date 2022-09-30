@@ -9,12 +9,13 @@ export const Todolist = () => {
                 <p>React, Redux, grid, thunk, axios, jest, snapshot, storybook</p>
             </div>
             <div className={s.links}>
-                <p>{`Демо:   `}
-                    {/*<a rel="noreferrer" target="_blank"*/}
-                    {/*   href="#">in process</a>*/}
-                    in process
+                {`Демо:   `}
+                <p>
+                    <a rel="noreferrer" target="_blank"
+                       href="https://shalaginov-dev.github.io/todolist/">https://shalaginov-dev.github.io/todolist/</a>
                 </p>
-                <p>{`Исходники:   `}
+                {`Исходники:   `}
+                <p>
                     <a rel="noreferrer" target="_blank"
                        href="https://github.com/shalaginov-dev/todolist">https://github.com/shalaginov-dev/todolist</a>
                 </p>
