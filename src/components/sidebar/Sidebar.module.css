@@ -11,7 +11,7 @@
     margin-right: 5px;
     padding: 20px 0 0 0;
     overflow: hidden;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .asideBlock img {
@@ -31,7 +31,7 @@
 .navItem h3 {
     background-color: #151515;
     margin: 10px 0;
-    height: 20px;
+    height: 18px;
     width: 100%;
 }
 
@@ -55,7 +55,7 @@
     border-radius: 7px;
     cursor: pointer;
     color: #ffffff;
-
+    font-size: 13px;
 }
 
 .navItem button:hover {
@@ -80,44 +80,51 @@
     margin-bottom: 5px;
 }
 
-@media screen and (max-width: 850px){
-    .asideBlock{
+@media screen and (max-width: 850px) {
+    .asideBlock {
         width: 170px;
         font-size: 10px;
     }
-    .asideBlock img{
+
+    .asideBlock img {
         width: 135px;
     }
-    .navItem button{
+
+    .navItem button {
         display: flex;
         justify-content: start;
         align-items: center;
         padding-left: 10px;
         width: 155px;
     }
+
     .navItem img {
         width: 15px;
         height: 15px;
         margin: 0 7px 3px 0;
     }
+
     .navItem h3 {
         height: 16px;
     }
+
     .skills {
         right: -14px;
     }
 }
 
-@media screen and (max-width: 650px){
-    .asideBlock{
+@media screen and (max-width: 650px) {
+    .asideBlock {
         width: 130px;
         font-size: 8px;
         padding: 10px 0 0 0;
     }
-    .asideBlock img{
+
+    .asideBlock img {
         width: 105px;
     }
-    .navItem button{
+
+    .navItem button {
         display: flex;
         justify-content: start;
         align-items: center;
@@ -126,29 +133,34 @@
         height: 30px;
         font-size: 10px;
     }
+
     .navItem img {
         width: 15px;
         height: 15px;
         margin: 0 7px 3px 0;
     }
+
     .navItem h3 {
         height: 13px;
     }
+
     .skills {
         right: -50px;
     }
 }
 
-@media screen and (max-width: 500px){
-    .asideBlock{
+@media screen and (max-width: 500px) {
+    .asideBlock {
         width: 115px;
         font-size: 7px;
         padding: 15px 0 0 0;
     }
-    .asideBlock img{
+
+    .asideBlock img {
         width: 80px;
     }
-    .navItem button{
+
+    .navItem button {
         display: flex;
         justify-content: start;
         align-items: center;
@@ -157,14 +169,17 @@
         height: 25px;
         font-size: 7px;
     }
+
     .navItem img {
         width: 15px;
         height: 15px;
         margin: 0 4px 3px 0;
     }
+
     .navItem h3 {
         height: 11px;
     }
+
     .skills {
         left: 25px;
     }

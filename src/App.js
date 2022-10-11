@@ -15,6 +15,7 @@ export const App = () => {
     const SNButton = ()=> {
         setViewPageMode('SN')
     }
+
     return (
         <div className={s.appWrapper}>
             <div className={s.app}>

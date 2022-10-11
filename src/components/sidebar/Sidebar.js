@@ -3,24 +3,25 @@ import ava from '../../assets/images/IMG_8169.PNG'
 import personIcon from '../../assets/images/person_icon.png'
 import projectIcon from '../../assets/images/proj_icon.png'
 
-export const Sidebar = (props) => {
+export const Sidebar = ({AMButton, TLButton, SNButton}) => {
+
     return (
         <aside className={s.asideBlock}>
                 <img src={ava} alt="avatar"/>
             <div className={s.navMenu}>
                 <div className={s.navItem}>
-                    <button onClick={props.AMButton}>
+                    <button onClick={AMButton}>
                         <img src={personIcon}
                              alt="personIcon"/>
                           About me
                     </button>
                     <h3>PROJECTS</h3>
-                    <button onClick={props.TLButton}>
+                    <button onClick={TLButton}>
                         <img src={projectIcon}
                              alt="projectIcon"/>
                         Todolist
                     </button>
-                    <button onClick={props.SNButton}>
+                    <button onClick={SNButton}>
                         <img src={projectIcon}
                              alt="projectIcon"/>
                         Social Network

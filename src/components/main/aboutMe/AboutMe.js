@@ -1,6 +1,7 @@
 import s from "./AboutMe.module.css";
 
 export const AboutMe = () => {
+
     return (
         <div className={s.aboutMeBlock}>
             <div className={s.title}>
@@ -37,10 +38,6 @@ export const AboutMe = () => {
                 <p> Русский-Родной</p>
                 <p>Английский-А2-Элементарный</p>
             </div>
-            {/*<div>*/}
-            {/*    <h3>Курсы:</h3>*/}
-            {/*    <p> https://it-incubator.ru , React developer</p>*/}
-            {/*</div>*/}
             <div className={s.aboutMe}>
                 <h3>Обо мне:</h3>
                 <p> Прошел курсы it-incubator, сделал несколько пет-проектов</p>

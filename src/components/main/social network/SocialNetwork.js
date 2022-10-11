@@ -3,6 +3,7 @@ import demo from "../../../assets/temp/SN.png"
 
 
 export const SocialNetwork = () => {
+
     return (
         <div className={s.socialNetworkBlock}>
             <div className={s.stack}>

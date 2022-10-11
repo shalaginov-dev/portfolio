@@ -1,7 +1,7 @@
 .socialNetworkBlock {
     display: flex;
     flex-direction: column;
-    padding: 120px 75px 20px 80px;
+    padding: 80px 75px 20px 80px;
     background-color: #222222;
     height: 90vh;
     width: 600px;
