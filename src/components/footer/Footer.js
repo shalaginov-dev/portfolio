@@ -1,26 +1,50 @@
-import s from './Footer.module.css';
-import vkIcon from '../../assets/images/vk_icon.png'
-import gitIcon from '../../assets/images/git_icon.png'
+import "./style.css";
 
-export const Footer = () => {
+import vk from './../../img/icons/vk.svg';
+import instagram from './../../img/icons/instagram.svg';
+import twitter from './../../img/icons/twitter.svg';
+import linkedIn from './../../img/icons/linkedIn.svg';
+import gitHub from './../../img/icons/gitHub.svg';
 
+const Footer = () => {
     return (
-        <footer className={s.footerBlock}>
-            <div className={s.email}>
-                shalaginov.dev@gmail.com
-            </div>
-            <div className={s.links}>
-                <a rel='noreferrer' href="https://vk.com/id31917003" target='_blank'>
-                    <img src={vkIcon} alt="vk"/>
-                </a>
-                <a rel='noreferrer' href="https://github.com/shalaginov-dev" target='_blank'>
-                    <img src={gitIcon} alt="git-hub"/>
-                </a>
-            </div>
-            <div className={s.phone}>
-                +7 (918) 207 40 54
-            </div>
-        </footer>
-    )
+		<footer className="footer">
+			<div className="container">
+				<div className="footer__wrapper">
+					<ul className="social">
+						<li className="social__item">
+							<a href="#!">
+								<img src={vk} alt="Link" />
+							</a>
+						</li>
+						<li className="social__item">
+							<a href="#!">
+								<img src={instagram} alt="Link" />
+							</a>
+						</li>
+						<li className="social__item">
+							<a href="#!">
+								<img src={twitter} alt="Link" />
+							</a>
+						</li>
+						<li className="social__item">
+							<a href="#!">
+								<img src={gitHub} alt="Link" />
+							</a>
+						</li>
+						<li className="social__item">
+							<a href="#!">
+								<img src={linkedIn} alt="Link" />
+							</a>
+						</li>
+					</ul>
+					<div className="copyright">
+						{/*<p>© 2022 frontend-dev.com</p>*/}
+					</div>
+				</div>
+			</div>
+		</footer>
+	);
 }
 
+export default Footer;

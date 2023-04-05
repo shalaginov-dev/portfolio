@@ -1,28 +1,27 @@
-import s from './App.module.css'
-import {Main} from "./components/main/Main";
-import {Sidebar} from "./components/sidebar/Sidebar";
-import {Footer} from "./components/footer/Footer";
-import {useState} from "react";
+import "./styles/main.css";
 
-export const App = () => {
-    const [viewPageMode, setViewPageMode] = useState('AM')
-    const AMButton = ()=> {
-        setViewPageMode('AM')
-    }
-    const TLButton = ()=> {
-        setViewPageMode('TL')
-    }
-    const SNButton = ()=> {
-        setViewPageMode('SN')
-    }
 
+import Navbar from "./components/navbar/Navbar"
+import Footer from "./components/footer/Footer";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contacts from "./pages/Contacts";
+
+import ScrollToTop from "./utils/scrollToTop"
+import Header from "./components/header/Header";
+
+function App() {
     return (
-        <div className={s.appWrapper}>
-            <div className={s.app}>
-                <Sidebar AMButton={AMButton} TLButton={TLButton} SNButton={SNButton}/>
-                <Main viewPageMode={viewPageMode}/>
-            </div>
+        <div className="App">
+            <ScrollToTop/>
+            <Navbar/>
+            <Header/>
+            <About/>
+            <Projects/>
+            <Contacts/>
             <Footer/>
         </div>
-    )
+    );
 }
+
+export default App;
