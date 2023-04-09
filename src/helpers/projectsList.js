@@ -1,8 +1,6 @@
-import project01 from "./../img/projects/01.jpg";
-import project01Big from "./../img/projects/01-big.jpg";
+import pizzeria from "./../img/projects/pizzeria.png";
 
-import project02 from "./../img/projects/02.jpg";
-import project02Big from "./../img/projects/02-big.jpg";
+import todolist from "./../img/projects/todolist.png";
 
 import project03 from "./../img/projects/03.jpg";
 import project03Big from "./../img/projects/03-big.jpg";
@@ -18,40 +16,40 @@ import project06Big from "./../img/projects/06-big.jpg";
 
 const projects = [
 	{
-		title: 'Gaming streaming portal',
-		skills: 'React, Node.js, MongoDB',
-		img: project01,
-		imgBig: project01Big,
-		gitHubLink: 'https://github.com',
+		title: 'Pizzeria',
+		skills: 'React, mockAPI',
+		img: pizzeria,
+		imgBig: pizzeria,
+		gitHubLink: 'https://shalaginov-dev.github.io/pizzeria/',
 	},
 	{
-		title: 'Video service',
-		img: project02,
-		imgBig: project02Big,
-		skills: 'React, PHP, MySql',
-		gitHubLink: 'https://github.com',
+		title: 'Todolist',
+		img: todolist,
+		imgBig: todolist,
+		skills: 'React, Node.js, MySql',
+		gitHubLink: 'https://shalaginov-dev.github.io/todolist',
 	},
 	{
-		title: 'Video portal',
+		title: '#',
 		img: project03,
 		imgBig: project03Big,
 		skills: 'Vue JS, Node.js, MongoDB',
 		gitHubLink: 'https://github.com',
 	},
 	{
-		title: 'Dating app',
+		title: '#',
 		img: project04,
 		imgBig: project04Big,
 		skills: 'React Native',
 	},
 	{
-		title: 'Landing',
+		title: '#',
 		img: project05,
 		imgBig: project05Big,
 		skills: 'HTML, SCSS, JS',
 	},
 	{
-		title: 'Gaming community',
+		title: '#',
 		img: project06,
 		imgBig: project06Big,
 		skills: 'React, PHP, MySql',
