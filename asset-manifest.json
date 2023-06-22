@@ -1,10 +1,10 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.c6925a41.css",
-    "main.js": "/portfolio/static/js/main.eabfcf79.js",
+    "main.js": "/portfolio/static/js/main.3f658de5.js",
     "static/media/D2INFO.png": "/portfolio/static/media/D2INFO.511cab3d5e4e28d97bbe.png",
     "static/media/pizzeria.png": "/portfolio/static/media/pizzeria.6420da81a94406ef8aa3.png",
-    "static/media/socialNetwork.png": "/portfolio/static/media/socialNetwork.1d531d0b86dd66b91542.png",
+    "static/media/socialNetwork.png": "/portfolio/static/media/socialNetwork.3b459709c4e6fa817577.png",
     "static/media/todolist.png": "/portfolio/static/media/todolist.eab6a8e9106f10a7fe78.png",
     "static/media/header-bg.png": "/portfolio/static/media/header-bg.5bf82a058f892ab7f237.png",
     "static/media/sun.svg": "/portfolio/static/media/sun.4d47962acd6c83e7e7aca592ec39545f.svg",
@@ -16,10 +16,10 @@
     "static/media/linkedIn.svg": "/portfolio/static/media/linkedIn.c05a2ae5b158581b0f27510e1d79e379.svg",
     "index.html": "/portfolio/index.html",
     "main.c6925a41.css.map": "/portfolio/static/css/main.c6925a41.css.map",
-    "main.eabfcf79.js.map": "/portfolio/static/js/main.eabfcf79.js.map"
+    "main.3f658de5.js.map": "/portfolio/static/js/main.3f658de5.js.map"
   },
   "entrypoints": [
     "static/css/main.c6925a41.css",
-    "static/js/main.eabfcf79.js"
+    "static/js/main.3f658de5.js"
   ]
 }
