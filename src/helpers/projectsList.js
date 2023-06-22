@@ -2,19 +2,20 @@ import pizzeria from "./../img/projects/pizzeria.png";
 
 import todolist from "./../img/projects/todolist.png";
 
-import project03 from "./../img/projects/03.jpg";
-import project03Big from "./../img/projects/03-big.jpg";
+import D2INFO from "./../img/projects/D2INFO.png";
 
-import project04 from "./../img/projects/04.jpg";
-import project04Big from "./../img/projects/04-big.jpg";
+import SocialNetwork from "./../img/projects/socialNetwork.png";
 
-import project05 from "./../img/projects/05.jpg";
-import project05Big from "./../img/projects/05-big.jpg";
 
-import project06 from "./../img/projects/06.jpg";
-import project06Big from "./../img/projects/06-big.jpg";
 
 const projects = [
+	{
+		title: 'InfoDota',
+		img: D2INFO,
+		imgBig: D2INFO,
+		skills: 'React',
+		gitHubLink: 'https://shalaginov-dev.github.io/d2info',
+	},
 	{
 		title: 'Pizzeria',
 		skills: 'React, mockAPI',
@@ -30,28 +31,21 @@ const projects = [
 		gitHubLink: 'https://shalaginov-dev.github.io/todolist',
 	},
 	{
-		title: '#',
-		img: project03,
-		imgBig: project03Big,
-		skills: 'Vue JS, Node.js, MongoDB',
-		gitHubLink: 'https://github.com',
-	},
-	{
-		title: '#',
-		img: project04,
-		imgBig: project04Big,
+		title: 'SocialNetwork',
+		img: SocialNetwork,
+		imgBig: SocialNetwork,
 		skills: 'React Native',
 	},
 	{
-		title: '#',
-		img: project05,
-		imgBig: project05Big,
+		title: '',
+		img: 'https://t3.ftcdn.net/jpg/00/91/42/14/360_F_91421442_zU1mKuR1KYInXiiWmsS1V6Y1Cv5jFez4.jpg',
+		imgBig: 'https://t3.ftcdn.net/jpg/00/91/42/14/360_F_91421442_zU1mKuR1KYInXiiWmsS1V6Y1Cv5jFez4.jpg',
 		skills: 'HTML, SCSS, JS',
 	},
 	{
-		title: '#',
-		img: project06,
-		imgBig: project06Big,
+		title: '',
+		img: 'https://t3.ftcdn.net/jpg/00/91/42/14/360_F_91421442_zU1mKuR1KYInXiiWmsS1V6Y1Cv5jFez4.jpg',
+		imgBig: 'https://t3.ftcdn.net/jpg/00/91/42/14/360_F_91421442_zU1mKuR1KYInXiiWmsS1V6Y1Cv5jFez4.jpg',
 		skills: 'React, PHP, MySql',
 	},
 ];
